@@ -150,3 +150,7 @@ span.highlight {
 .item2:hover img{
   opacity: 1;
 }
+
+.bigger {
+  font-size: larger;
+}
