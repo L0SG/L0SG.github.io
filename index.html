@@ -81,6 +81,7 @@
               of generative modeling for audio.
               I am also broadly interested in speech / audio applications, including text-to-speech, voice
               conversion, and music generation.
+              Representative papers are <span class="highlight">highlighted</span>.
             </p>
           </td>
         </tr>
@@ -90,7 +91,7 @@
         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
 
-        <tr onmouseout="bigvgan_stop()" onmouseover="bigvgan_start()">
+        <tr onmouseout="bigvgan_stop()" onmouseover="bigvgan_start()" bgcolor="#ffffd0">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
               <img src='images/bigvgan.png' width="160">
@@ -128,7 +129,7 @@
           </td>
         </tr>
 
-        <tr onmouseout="priorgrad_stop()" onmouseover="priorgrad_start()">
+        <tr onmouseout="priorgrad_stop()" onmouseover="priorgrad_start()" bgcolor="#ffffd0">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
               <img src='images/priorgrad.png' width="160">
@@ -169,6 +170,190 @@
             <p>PriorGrad presents an efficient method for constructing a data-dependent non-standard Gaussian prior for training and sampling from diffusion models applied to speech synthesis. </p>
           </td>
         </tr>
+
+        <tr onmouseout="nanoflow_stop()" onmouseover="nanoflow_start()" bgcolor="#ffffd0">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/nanoflow.png' width="160">
+            </div>
+            <script type="text/javascript">
+                function nanoflow_start() {
+                    document.getElementById('nanoflow_image').style.opacity = "1";
+                }
+
+                function nanoflow_stop() {
+                    document.getElementById('nanoflow_image').style.opacity = "0";
+                }
+
+                nanoflow_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://proceedings.neurips.cc/paper/2020/file/a1c3ae6c49a89d92aef2d423dadb477f-Paper.pdf">
+              <papertitle>NanoFlow: Scalable Normalizing Flows with Sublinear Parameter Complexity</papertitle>
+            </a>
+            <br>
+            <strong>Sang-gil Lee</strong>,
+            <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ">Sungwon Kim</a>,
+            Sungroh Yoon
+            <br>
+            <em>Neural Information Processing Systems (NeurIPS)</em>, 2020
+            <br>
+            <a href="https://arxiv.org/abs/2006.06280">arXiv</a> /
+            <a href="https://github.com/L0SG/NanoFlow">code</a>
+            <p></p>
+            <p>NanoFlow uses a single neural network for multiple transformation stages in normalizing flows, which provides an efficient compression for flow-based generrative models.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="ttsql_stop()" onmouseover="ttsql_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/ttsql.png' width="160">
+            </div>
+            <script type="text/javascript">
+                function ttsql_start() {
+                    document.getElementById('ttsql_image').style.opacity = "1";
+                }
+
+                function ttsql_stop() {
+                    document.getElementById('ttsql_image').style.opacity = "0";
+                }
+
+                ttsql_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/1905.11499">
+              <papertitle>One-Shot Learning for Text-to-SQL Generation</papertitle>
+            </a>
+            <br>
+            Dongjun Lee,
+            Jaesik Yoon,
+            Jongyun Song,
+            <strong>Sang-gil Lee</strong>,
+            Sungroh Yoon
+            <br>
+            <em>arXiv preprint</em>, 2019
+            <br>
+            <a href="https://arxiv.org/abs/1905.11499">arXiv</a>
+            <p></p>
+            <p>Template-based ont-shot text-to-SQL generative model based on a Candidate Search Network & Pointer Network.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="flowavenet_stop()" onmouseover="flowavenet_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/flowavenet.png' width="160">
+            </div>
+            <script type="text/javascript">
+                function flowavenet_start() {
+                    document.getElementById('flowavenet_image').style.opacity = "1";
+                }
+
+                function flowavenet_stop() {
+                    document.getElementById('flowavenet_image').style.opacity = "0";
+                }
+
+                flowavenet_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="http://proceedings.mlr.press/v97/kim19b/kim19b.pdf">
+              <papertitle>FloWaveNet: A generative flow for raw audio</papertitle>
+            </a>
+            <br>
+            <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ">Sungwon Kim</a>,
+            <strong>Sang-gil Lee</strong>,
+            <a href="https://scholar.google.com/citations?user=AcVToQUAAAAJ">Jongyoon Song</a>,
+            <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a>,
+            Sungroh Yoon
+            <br>
+            <em>International Conference on Machine Learning (ICML)</em>, 2019
+            <br>
+            <a href="https://arxiv.org/abs/1905.11499">arXiv</a> /
+            <a href="https://github.com/ksw0306/FloWaveNet">code</a> /
+            <a href="https://ksw0306.github.io/flowavenet-demo">demo</a>
+            <p></p>
+            <p>One of the first flow-based generative model for a fast and parallel synthesis of audio waveform, which enables a likelihood-based neural vocoder without any auxiliary loss.</p>
+          </td>
+        </tr>
+
+
+        <tr onmouseout="seqgan_stop()" onmouseover="seqgan_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/seqgan.png' width="160">
+            </div>
+            <script type="text/javascript">
+                function seqgan_start() {
+                    document.getElementById('seqgan_image').style.opacity = "1";
+                }
+
+                function seqgan_stop() {
+                    document.getElementById('seqgan_image').style.opacity = "0";
+                }
+
+                seqgan_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/1710.11418">
+              <papertitle>Polyphonic Music Generation with Sequence Generative Adversarial Networks
+</papertitle>
+            </a>
+            <br>
+            <strong>Sang-gil Lee</strong>,
+            <a href="https://sites.google.com/view/uiwon-hwang">Uiwon Hwang</a>,
+            <a href="https://scholar.google.co.kr/citations?user=dWKk68wAAAAJ">Seonwoo Min</a>,
+            Sungroh Yoon
+            <br>
+            <em>arXiv preprint</em>, 2017
+            <br>
+            <a href="https://arxiv.org/abs/1710.11418">arXiv</a> /
+            <a href="https://github.com/L0SG/seqgan-music">code</a>
+            <p></p>
+            <p>Investigates an efficient musical word representation from polyphonic MIDI data for SeqGAN, which simultaneously captures chords and melodies with dynamic timings.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="snn_stop()" onmouseover="snn_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/snn.png' width="160">
+            </div>
+            <script type="text/javascript">
+                function snn_start() {
+                    document.getElementById('snn_image').style.opacity = "1";
+                }
+
+                function snn_stop() {
+                    document.getElementById('snn_image').style.opacity = "0";
+                }
+
+                snn_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/1611.02416">
+              <papertitle>An efficient approach to boosting performance of deep spiking network training
+</papertitle>
+            </a>
+            <br>
+            Seongsik Park,
+            <strong>Sang-gil Lee</strong>,
+            Hyunha Nam,
+            Sungroh Yoon
+            <br>
+            <em>Neural Information Processing Systems (NIPS) Workshop on Computing with Spikes</em>, 2016
+            <br>
+            <a href="https://arxiv.org/abs/1611.02416">arXiv</a>
+            <p></p>
+            <p>Investigates various initialization and backward control scheme of the membrane potential for training deep spiking networks.</p>
+          </td>
+        </tr>
+
 
 
         </tbody>
