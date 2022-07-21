@@ -125,7 +125,8 @@
             <a href="https://github.com/NVIDIA/BigVGAN">code</a> /
             <a href="https://bigvgan-demo.github.io/">demo</a>
             <p></p>
-            <p>BigVGAN is a universal audio synthesizer that achieves unprecedented zero-shot performance on various unseen
+            <p>BigVGAN is a universal audio synthesizer that achieves unprecedented zero-shot performance on various
+              unseen
               environments using anti-aliased periodic nonlinearity and large-scale training. </p>
           </td>
         </tr>
@@ -168,7 +169,8 @@
             <em>International Conference on Learning Representations (ICLR)</em>, 2022
             <br> <a href="https://speechresearch.github.io/priorgrad/">project page</a> /
             <a href="https://arxiv.org/abs/2106.06406">arXiv</a> /
-            <a href="https://github.com/microsoft/NeuralSpeech">code</a>
+            <a href="https://github.com/microsoft/NeuralSpeech">code</a> /
+            <a href="https://iclr.cc/virtual/2022/poster/6445">poster</a>
             <p></p>
             <p>PriorGrad presents an efficient method for constructing a data-dependent non-standard Gaussian prior for
               training and sampling from diffusion models applied to speech synthesis. </p>
@@ -204,10 +206,51 @@
             <em>Neural Information Processing Systems (NeurIPS)</em>, 2020
             <br>
             <a href="https://arxiv.org/abs/2006.06280">arXiv</a> /
-            <a href="https://github.com/L0SG/NanoFlow">code</a>
+            <a href="https://github.com/L0SG/NanoFlow">code</a> /
+            <a href="https://nips.cc/virtual/2020/poster/17696">poster</a>
             <p></p>
             <p>NanoFlow uses a single neural network for multiple transformation stages in normalizing flows, which
               provides an efficient compression for flow-based generative models.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="flowavenet_stop()" onmouseover="flowavenet_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/flowavenet.png' width="160">
+            </div>
+            <script type="text/javascript">
+                function flowavenet_start() {
+                    document.getElementById('flowavenet_image').style.opacity = "1";
+                }
+
+                function flowavenet_stop() {
+                    document.getElementById('flowavenet_image').style.opacity = "0";
+                }
+
+                flowavenet_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="http://proceedings.mlr.press/v97/kim19b/kim19b.pdf">
+              <papertitle>FloWaveNet: A Generative Flow for Raw Audio</papertitle>
+            </a>
+            <br>
+            <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ">Sungwon Kim</a>,
+            <strong>Sang-gil Lee</strong>,
+            <a href="https://scholar.google.com/citations?user=AcVToQUAAAAJ">Jongyoon Song</a>,
+            <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a>,
+            Sungroh Yoon
+            <br>
+            <em>International Conference on Machine Learning (ICML)</em>, 2019
+            <br>
+            <a href="https://arxiv.org/abs/1905.11499">arXiv</a> /
+            <a href="https://github.com/ksw0306/FloWaveNet">code</a> /
+            <a href="https://ksw0306.github.io/flowavenet-demo">demo</a> /
+            <a href="https://pdfs.semanticscholar.org/9e79/377defb3385ae4dfb5e345c85686e27ca7a5.pdf">poster</a>
+            <p></p>
+            <p>One of the first flow-based generative model for a fast and parallel synthesis of audio waveform, which
+              enables a likelihood-based neural vocoder without any auxiliary loss.</p>
           </td>
         </tr>
 
@@ -247,46 +290,6 @@
               Network.</p>
           </td>
         </tr>
-
-        <tr onmouseout="flowavenet_stop()" onmouseover="flowavenet_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/flowavenet.png' width="160">
-            </div>
-            <script type="text/javascript">
-                function flowavenet_start() {
-                    document.getElementById('flowavenet_image').style.opacity = "1";
-                }
-
-                function flowavenet_stop() {
-                    document.getElementById('flowavenet_image').style.opacity = "0";
-                }
-
-                flowavenet_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="http://proceedings.mlr.press/v97/kim19b/kim19b.pdf">
-              <papertitle>FloWaveNet: A Generative Flow for Raw Audio</papertitle>
-            </a>
-            <br>
-            <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ">Sungwon Kim</a>,
-            <strong>Sang-gil Lee</strong>,
-            <a href="https://scholar.google.com/citations?user=AcVToQUAAAAJ">Jongyoon Song</a>,
-            <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a>,
-            Sungroh Yoon
-            <br>
-            <em>International Conference on Machine Learning (ICML)</em>, 2019
-            <br>
-            <a href="https://arxiv.org/abs/1905.11499">arXiv</a> /
-            <a href="https://github.com/ksw0306/FloWaveNet">code</a> /
-            <a href="https://ksw0306.github.io/flowavenet-demo">demo</a>
-            <p></p>
-            <p>One of the first flow-based generative model for a fast and parallel synthesis of audio waveform, which
-              enables a likelihood-based neural vocoder without any auxiliary loss.</p>
-          </td>
-        </tr>
-
 
         <tr onmouseout="seqgan_stop()" onmouseover="seqgan_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -447,8 +450,8 @@
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://link.springer.com/chapter/10.1007/978-3-030-00934-2_77">
-              <papertitle>Robust End-to-End Focal Liver Lesion Detection Using Unregistered Multiphase Computed
-                Tomography Images
+              <papertitle>Liver Lesion Detection from Weakly-Labeled Multi-phase CT Volumes with a Grouped Single Shot
+                MultiBox Detector
               </papertitle>
             </a>
             <br>
@@ -556,7 +559,8 @@
             <br>
             <br>
             Worked on improving speech synthesis and voice conversion models, advised by
-            <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a> and <a href="https://scholar.google.com/citations?user=xUMMrvwAAAAJ">Jaekyong Bae</a>.
+            <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a> and <a
+            href="https://scholar.google.com/citations?user=xUMMrvwAAAAJ">Jaekyong Bae</a>.
 
           </td>
         </tr>
@@ -632,17 +636,27 @@
              style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
         <ul>
-          <li>Invited Talk "On Neural Waveform Synthesis", <a href="https://supertone.ai/">Supertone</a>, 2022 </li>
-          <li>Invited Talk "Prior Enhancement for Deep Generative Models", <a href="https://airsc.ai/">Hyundai AIRS</a>, 2022 </li>
-          <li>Student Conference Scholarship, <a href="https://ai.google/">Google</a>, 2022 </li>
-          <li>Invited Talk "Neural Speech Synthesis: a 2021 Landscape", <a href="https://www.nvidia.com/">NVIDIA</a>, 2021 </li>
-          <li>Gradate Student of the Year, DSAIL, Seoul National University, 2019 </li>
-          <li>Best Paper Award, <a href="https://airsc.ai/">Hyundai AIR Lab (currently AIRS)</a>, 2019 </li>
-          <li>Stars of Tomorrow (Excellent Intern), <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, 2019 </li>
-          <li>Invited Talk "RNN Plus Alpha: Is RNN the False Prophet?", <a href="https://clova.ai">Naver CLOVA</a>, 2018 </li>
-          <li>Cum Laude, Seoul National University, 2016 </li>
-          <li>Academic Performance Scholarship, Seoul National University, 2010 - 2016 </li>
-          <li>Academic Scholarship (fully funded), <a href="https://foundation.sbs.co.kr/">SBS Foundation</a>, 2010 - 2016</li>
+          <li>Invited Talk "On Neural Waveform Synthesis", <a href="https://supertone.ai/">Supertone</a>, 2022</li>
+          <li>Invited Talk "Prior Enhancement for Deep Generative Models", <a href="https://airsc.ai/">Hyundai AIRS</a>,
+            2022
+          </li>
+          <li>Student Conference Scholarship, <a href="https://ai.google/">Google</a>, 2022</li>
+          <li>Invited Talk "Neural Speech Synthesis: a 2021 Landscape", <a href="https://www.nvidia.com/">NVIDIA</a>,
+            2021
+          </li>
+          <li>Gradate Student of the Year, DSAIL, Seoul National University, 2019</li>
+          <li>Best Paper Award, <a href="https://airsc.ai/">Hyundai AIR Lab (currently AIRS)</a>, 2019</li>
+          <li>Stars of Tomorrow (Excellent Intern), <a
+            href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>,
+            2019
+          </li>
+          <li>Invited Talk "RNN Plus Alpha: Is RNN the False Prophet?", <a href="https://clova.ai">Naver CLOVA</a>, 2018
+          </li>
+          <li>Cum Laude, Seoul National University, 2016</li>
+          <li>Academic Performance Scholarship, Seoul National University, 2010 - 2016</li>
+          <li>Academic Scholarship (fully funded), <a href="https://foundation.sbs.co.kr/">SBS Foundation</a>, 2010 -
+            2016
+          </li>
         </ul>
         </tbody>
       </table>
