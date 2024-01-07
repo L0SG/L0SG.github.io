@@ -102,7 +102,7 @@ papertitle {
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .one {
@@ -131,24 +131,46 @@ span.highlight {
 }
 
 .item{
-  width: 200px;
-  position: relative
+  width: 150px;
+  position: relative;
+  text-align: center;
 }
 .item img{
   width: 100%;
+  height: auto;
 }
 
 .item2{
-  width: 200px;
-  position: absolute
+  width: 150px;
+  position: absolute;
 }
 .item2 img{
   width: 100%;
+  height: auto;
   opacity: 0;
   transition: opacity ease-in-out .2s;
 }
 .item2:hover img{
   opacity: 1;
+}
+
+/* Media query for narrower screens */
+@media screen and (max-width: 500px) {
+  td {
+    width: 80%; /* Each cell takes full width, stacking vertically */
+  }
+  .item img {
+    width: 60%; /* Adjust this value as needed for smaller screens */
+    height: auto;
+  }
+  .one {
+    width: 60%; /* Adjust this value as needed for smaller screens */
+    height: auto;
+  }
+  .two {
+    width: 60%; /* Adjust this value as needed for smaller screens */
+    height: auto;
+  }
 }
 
 .bigger {

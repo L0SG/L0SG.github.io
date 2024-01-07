@@ -23,28 +23,9 @@
         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
         <tr style="padding:0px">
-          <td style="padding:2.5%;width:63%;vertical-align:middle">
+          <td style="padding:2.5%; vertical-align:middle; text-align:center;">
             <p style="text-align:center">
               <name>Sang-gil Lee</name>
-            </p>
-            <p>I am a senior research engineer at <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-research">Qualcomm AI Research</a>. I do deep generative models for sequence, with a particular focus on speech / audio.
-            </p>
-            <p>
-              I received my Ph.D. degree at Data Science & AI Lab. (DSAIL) from <a
-              href="https://en.snu.ac.kr">Seoul National University</a>.
-              I was a research intern at <a href="https://www.nvidia.com/">NVIDIA</a>, advised by <a
-              href="https://wpingnet.github.io/">Wei Ping</a> and <a
-              href="https://scholar.google.com/citations?user=7BRYaGcAAAAJ">Boris Ginsburg</a>.
-              Prior to that, I did internships at <a
-              href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft
-              Research Asia</a>, advised by <a href="https://tan-xu.github.io/">Xu Tan</a>, <a
-              href="https://www.microsoft.com/en-us/research/people/taoqin/">Tao Qin</a> (speech), and
-              <a href="https://www.binshao.info/">Bin Shao</a> (bioinformatics).
-              I received my B.S. in Electrical and Computer Engineering from <a
-              href="https://en.snu.ac.kr">Seoul National University</a>.
-              <br>
-              <br>
-
             </p>
             <p style="text-align:center">
               <a href="mailto:tkdrlf9202@gmail.com">Email</a> &nbsp/&nbsp
@@ -52,22 +33,46 @@
               <a href="https://www.linkedin.com/in/sang-gil-lee/">LinkedIn</a> &nbsp/&nbsp
               <a href="https://scholar.google.com/citations?user=P93s2UQAAAAJ&hl=en">Google Scholar</a>
               &nbsp/&nbsp
-              <a href="https://twitter.com/L0SG">Twitter</a> &nbsp/&nbsp
+              <a href="https://twitter.com/L0SG">X (Twitter)</a> &nbsp/&nbsp
               <a href="https://github.com/L0SG/">GitHub</a>
             </p>
           </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-
-            <div class="item">
+          <td style="padding:2.5%; vertical-align:middle; text-align:center;">
+            <div class="item" style="text-align:center;">
               <div class="item2">
-                <img src='images/L0SG.png'></div>
+                <img src='images/L0SG.png'>
+              </div>
               <img src='images/Sang-gil-Lee.png'>
             </div>
-
           </td>
-
+        </tr>
+        <tr style="padding:0px">
+          <td style="padding:2.5%; vertical-align:middle" colspan="2">
+            <p>
+              I am a research scientist at <a href="https://www.nvidia.com/">NVIDIA</a>.
+              I work on deep generative models for sequences, with a particular focus on speech and audio.
+            </p>
+            <p>
+              I received my Ph.D. from the Data Science & AI Lab (DSAIL) at <a
+              href="https://en.snu.ac.kr">Seoul National University</a>.
+              During my Ph.D., I served as a research intern at <a href="https://www.nvidia.com/">NVIDIA</a>, under the advisement of <a
+              href="https://wpingnet.github.io/">Wei Ping</a> and <a
+              href="https://scholar.google.com/citations?user=7BRYaGcAAAAJ">Boris Ginsburg</a>.
+              Prior to that, I completed internships at <a
+              href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft
+              Research Asia</a>, where I was advised by <a href="https://tan-xu.github.io/">Xu Tan</a>, <a
+              href="https://www.microsoft.com/en-us/research/people/taoqin/">Tao Qin</a> (speech), and
+              <a href="https://www.binshao.info/">Bin Shao</a> (bioinformatics).
+              I received my B.S. in Electrical and Computer Engineering from <a
+              href="https://en.snu.ac.kr">Seoul National University</a>.
+            </p>
+          </td>
         </tbody>
       </table>
+
+      <br>
+      <br>
+
       <table
         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
@@ -76,11 +81,10 @@
             <heading>Research</heading>
             <p>
               My research interest spans a wide range of deep generative models (AR, flow, GAN, diffusion,
-              etc.) applied to sequential data.
-              Specifically, I focus on time-domain waveform data (speech / audio) to push the boundaries
-              of generative modeling for audio.
-              I am also broadly interested in speech / audio applications, including text-to-speech, voice
-              conversion, and music generation.
+              etc.) applied to sequential data. Specifically, I am working on building multi-modal large language models
+              with a focus on audio.
+              During my Ph.D., I focused on time-domain waveform data (speech and audio) to advance generative modeling for audio.
+              I am also broadly interested in speech and audio applications, including text-to-speech, voice conversion, music generation, neural audio codecs, and audio language models.
               Representative papers are <span class="highlight">highlighted</span>.
             </p>
           </td>
@@ -90,6 +94,42 @@
       <table
         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
+
+        <tr onmouseout="editavideo_stop()" onmouseover="editavideo_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/editavideo.gif' width="160">
+            </div>
+            <script type="text/javascript">
+                function editavideo_start() {
+                    document.getElementById('editavideo_image').style.opacity = "1";
+                }
+
+                function editavideo_stop() {
+                    document.getElementById('editavideo_image').style.opacity = "0";
+                }
+
+                bigvgan_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2303.07945">
+              <papertitle>Edit-A-Video: Single Video Editing with Object-Aware Consistency</papertitle>
+            </a>
+            <br>
+            <a href="https://scholar.google.com/citations?user=M8RX0MEAAAAJ">Chaehun Shin*</a>,
+            <a href="https://scholar.google.com/citations?user=4ojbJpoAAAAJ">Heeseung Kim*</a>,
+            Che Hyun Lee,
+            <strong>Sang-gil Lee</strong>,
+            <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
+            <br>
+            <em>Asian Conference on Machine Learning (ACML)</em>, <strong>Best Paper Award</strong>, 2023
+            <br> <a href="https://edit-a-video.github.io/">project page</a> /
+            <a href="https://arxiv.org/abs/2303.07945">arXiv</a>
+            <p></p>
+            <p>Edit-A-Video is a diffusion-based one-shot video editing model that solves a background inconsistency problem using a new sparse-causal mask blending method. </p>
+          </td>
+        </tr>
 
         <tr onmouseout="bigvgan_stop()" onmouseover="bigvgan_start()" bgcolor="#ffffd0">
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -249,8 +289,7 @@
             <a href="https://ksw0306.github.io/flowavenet-demo">demo</a> /
             <a href="https://pdfs.semanticscholar.org/9e79/377defb3385ae4dfb5e345c85686e27ca7a5.pdf">poster</a>
             <p></p>
-            <p>One of the first flow-based generative models for a fast and parallel synthesis of audio waveform, which
-              enables a likelihood-based neural vocoder without any auxiliary loss.</p>
+            <p>FloWaveNet is one of the first flow-based generative models for fast and parallel synthesis of audio waveforms, enabling a likelihood-based neural vocoder without any auxiliary loss.</p>
           </td>
         </tr>
 
@@ -324,8 +363,7 @@
             <a href="https://arxiv.org/abs/1710.11418">arXiv</a> /
             <a href="https://github.com/L0SG/seqgan-music">code</a>
             <p></p>
-            <p>Investigates an efficient musical word representation from polyphonic MIDI data for SeqGAN, which
-              simultaneously captures chords and melodies with dynamic timings.</p>
+            <p>This work investigates an efficient musical word representation from polyphonic MIDI data for SeqGAN, simultaneously capturing chords and melodies with dynamic timings.</p>
           </td>
         </tr>
 
@@ -370,111 +408,6 @@
         </tbody>
       </table>
 
-
-      <table
-        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Projects</heading>
-            <p>
-              During my stay at DSAIL, I collaborated with <a href="http://www.snuh.org/global/en/main.do">Seoul
-              National University Hospital</a> on a computer aided diagnosis of liver cancer.
-              The project has yielded a high-performance medical object detection model to help reduce human errors from
-              radiologists for the early detection of liver disease.
-            </p>
-          </td>
-        </tr>
-        </tbody>
-      </table>
-      <table
-        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-
-        <tr onmouseout="gssdpp_stop()" onmouseover="gssdpp_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/gssdpp.png' width="160">
-            </div>
-            <script type="text/javascript">
-                function gssdpp_start() {
-                    document.getElementById('gssdpp_image').style.opacity = "1";
-                }
-
-                function gssdpp_stop() {
-                    document.getElementById('gssdpp_image').style.opacity = "0";
-                }
-
-                gssdpp_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://ieeexplore.ieee.org/abstract/document/9650690/">
-              <papertitle>Robust End-to-End Focal Liver Lesion Detection Using Unregistered Multiphase Computed
-                Tomography Images
-              </papertitle>
-            </a>
-            <br>
-            <strong>Sang-gil Lee*</strong>,
-            <a href="https://sites.google.com/snu.ac.kr/eunjikim">Eunji Kim*</a>,
-            <a href="https://scholar.google.co.kr/citations?user=C_GxLiAAAAAJ">Jae Seok Bae*</a>,
-            Jung Hoon Kim,
-            <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
-            <br>
-            <em>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</em>, 2021
-            <br>
-            <a href="https://arxiv.org/abs/2112.01535">arXiv</a> /
-            <a href="https://github.com/L0SG/grouped-ssd-pytorch">code</a>
-            <p></p>
-            <p>GSSD++ provides robustness to unregistered multi-phase CT images for detecting liver lesions using
-              attention-guided multi-phase alignment with deformable convolutions. </p>
-          </td>
-        </tr>
-
-        <tr onmouseout="gssd_stop()" onmouseover="gssd_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/gssd.png' width="160">
-            </div>
-            <script type="text/javascript">
-                function gssd_start() {
-                    document.getElementById('gssd_image').style.opacity = "1";
-                }
-
-                function gssd_stop() {
-                    document.getElementById('gssd_image').style.opacity = "0";
-                }
-
-                gssd_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://link.springer.com/chapter/10.1007/978-3-030-00934-2_77">
-              <papertitle>Liver Lesion Detection from Weakly-Labeled Multi-phase CT Volumes with a Grouped Single Shot
-                MultiBox Detector
-              </papertitle>
-            </a>
-            <br>
-            <strong>Sang-gil Lee</strong>,
-            <a href="https://scholar.google.co.kr/citations?user=C_GxLiAAAAAJ">Jae Seok Bae</a>,
-            Hyunjae Kim,
-            Jung Hoon Kim,
-            <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
-            <br>
-            <em>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>,
-            2018
-            <br>
-            <a href="https://arxiv.org/abs/1807.00436">arXiv</a> /
-            <a href="https://github.com/L0SG/grouped-ssd-pytorch">code</a>
-            <p></p>
-            <p>GSSD pioneers a focal liver lesion detection model from multi-phase CT images, which reflects a
-              real-world clinical practice of radiologists. </p>
-          </td>
-        </tr>
-
-        </tbody>
-      </table>
-
       <br>
       <br>
 
@@ -491,7 +424,35 @@
       <table width="100%" align="center" border="0" cellpadding="20">
         <tbody>
 
-        <tr>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tbody>
+
+          <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/nvidia.png' width="160">
+              </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:top">
+
+                          <papertitle><span class="bigger">
+                    Research Scientist @ NVIDIA
+                    </span></papertitle>
+              <br>
+              Jan 2024 - Current
+              <br>
+              In the <a href="https://research.nvidia.com/labs/adlr/ ">Applied Deep Learning Research</a> team, I am working on building multi-modal large language models with a focus on audio.
+              <br>
+              Sep 2021 - Jan 2022
+              <br>
+              As a research intern, I worked on improving neural vocoders for high quality speech and audio synthesis, advised by
+              <a href="https://wpingnet.github.io/">Wei Ping</a> and
+              <a href="https://scholar.google.com/citations?user=7BRYaGcAAAAJ">Boris Ginsburg</a>.
+
+            </td>
+          </tr>
+
+          <tr>
           <td style="padding:10px;width:25%;vertical-align:middle">
             <div class="one">
               <img src='images/qcai.jpg' width="180">
@@ -503,231 +464,326 @@
                     Senior Research Engineer @ Qualcomm AI Research
                     </span></papertitle>
             <br>
-            Feb 2023 - Current
+            Feb 2023 - Jan 2024
             <br>
             <br>
-            Working on a wide range of speech / audio generative models.
+            I developed a framework for Text-to-Speech (TTS) research and development, optimized for deployment on edge devices.
 
           </td>
         </tr>
 
-      <table width="100%" align="center" border="0" cellpadding="20">
-        <tbody>
+          <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/microsoft.jpeg' width="140">
+              </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:top">
 
-        <tr>
-          <td style="padding:10px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/nvidia.png' width="160">
-            </div>
-          </td>
-          <td style="padding:10px;width:75%;vertical-align:top">
-
-            <papertitle><span class="bigger">
-                    Research Intern @ NVIDIA
-                    </span></papertitle>
-            <br>
-            Sep 2021 - Jan 2022
-            <br>
-            <br>
-            Worked on improving neural vocoders for high quality speech / audio synthesis, advised by
-            <a href="https://wpingnet.github.io/">Wei Ping</a> and
-            <a href="https://scholar.google.com/citations?user=7BRYaGcAAAAJ">Boris Ginsburg</a>.
-
-          </td>
-        </tr>
-
-        <tr>
-          <td style="padding:10px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/microsoft.jpeg' width="140">
-            </div>
-          </td>
-          <td style="padding:10px;width:75%;vertical-align:top">
-
-            <papertitle><span class="bigger">
+              <papertitle><span class="bigger">
                     Research Intern @ Microsoft Research Asia
                     </span></papertitle>
-            <br>
-            Dec 2020 - May 2021
-            <br>
-            Worked on diffusion-based generative models for speech synthesis, advised by
-            <a href="https://tan-xu.github.io/">Xu Tan</a>,
-            <a href="https://changliu00.github.io/">Chang Liu</a>,
-            <a href="https://www.microsoft.com/en-us/research/people/meq/">Qi Meng</a>, and
-            <a href="https://www.microsoft.com/en-us/research/people/taoqin/">Tao Qin</a>.
-            <br>
-            Dec 2018 - Feb 2019
-            <br>
-            Worked on <a href="https://www.microsoft.com/en-us/research/project/immunomics/">the Antigen Map Project</a>,
-            where I applied sequence models to predict antigens from genetic sequences, advised by
-            <a href="https://www.binshao.info/">Bin Shao</a>.
+              <br>
+              Dec 2020 - May 2021
+              <br>
+              I worked on diffusion-based generative models for speech synthesis, advised by
+              <a href="https://tan-xu.github.io/">Xu Tan</a>,
+              <a href="https://changliu00.github.io/">Chang Liu</a>,
+              <a href="https://www.microsoft.com/en-us/research/people/meq/">Qi Meng</a>, and
+              <a href="https://www.microsoft.com/en-us/research/people/taoqin/">Tao Qin</a>.
+              <br>
+              Dec 2018 - Feb 2019
+              <br>
+              I worked on <a href="https://www.microsoft.com/en-us/research/project/immunomics/">the Antigen Map
+              Project</a>,
+              where I applied sequence models to predict antigens from genetic sequences, advised by
+              <a href="https://www.binshao.info/">Bin Shao</a>.
 
-          </td>
-        </tr>
+            </td>
+          </tr>
 
-        <tr>
-          <td style="padding:10px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/kakao.png' width="140">
-            </div>
-          </td>
-          <td style="padding:10px;width:75%;vertical-align:top">
+          <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/kakao.png' width="140">
+              </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:top">
 
-            <papertitle><span class="bigger">
+              <papertitle><span class="bigger">
                     Research Intern @ Kakao Corporation
                     </span></papertitle>
 
-            <br>
-            Jul 2019 - Sep 2019
-            <br>
-            <br>
-            Worked on improving speech synthesis and voice conversion models, advised by
-            <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a> and <a
-            href="https://scholar.google.com/citations?user=xUMMrvwAAAAJ">Jaekyong Bae</a>.
+              <br>
+              Jul 2019 - Sep 2019
+              <br>
+              <br>
+              I worked on improving speech synthesis and voice conversion models, advised by
+              <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a> and <a
+              href="https://scholar.google.com/citations?user=xUMMrvwAAAAJ">Jaekyong Bae</a>.
 
-          </td>
-        </tr>
-
-
-        </tbody>
-      </table>
+            </td>
+          </tr>
 
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Education</heading>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
 
-      <table width="100%" align="center" border="0" cellpadding="20">
-        <tbody>
+        <br>
+        <br>
 
-        <tr>
-          <td style="padding:10px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/snu.png' width="140">
-            </div>
-          </td>
-          <td style="padding:10px;width:75%;vertical-align:top">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Education</heading>
+            </td>
+          </tr>
+          </tbody>
+        </table>
 
-            <papertitle><span class="bigger">
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tbody>
+
+          <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/snu.png' width="140">
+              </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:top">
+
+              <papertitle><span class="bigger">
                     Ph.D. in Seoul National University
                     </span></papertitle>
-            <br>
-            <span class="bigger">
+              <br>
+              <span class="bigger">
                     Electrical and Computer Engineering
                     </span>
-            <br>
-            Sep 2016 - Feb 2023
-            <li>Dissertation: Deep Generative Model for Waveform Synthesis</li>
-            <li>Integrated M.S. / Ph.D. Program. &nbsp; Advisor: <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a></li>
-            <br>
-            <papertitle><span class="bigger">
+              <br>
+              Sep 2016 - Feb 2023
+              <li>Dissertation: <a href="https://snu-primo.hosted.exlibrisgroup.com/permalink/f/1l6eo7m/82SNU_INST51890946960002591">Deep Generative Model for Waveform Synthesis</a></li>
+              <li>Integrated M.S./Ph.D. Program. &nbsp; Advisor: <a
+                href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>.</li>
+              <br>
+              <papertitle><span class="bigger">
                     Dual B.S. in Seoul National University
                     </span></papertitle>
-            <br>
-            <span class="bigger">
+              <br>
+              <span class="bigger">
                     Electrical and Computer Engineering / Applied Biology and Chemistry
                     </span>
-            <br>
-            Mar 2010 - Aug 2016
-            <br>
-            <li>Cum Laude</li>
-          </td>
-        </tr>
+              <br>
+              Mar 2010 - Aug 2016
+              <br>
+              <li>Cum Laude</li>
+            </td>
+          </tr>
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
 
-      <br>
-      <br>
+        <br>
+        <br>
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Invited Talks, Honors, and Awards</heading>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Projects</heading>
+              <p>
+                During my time at DSAIL, I collaborated with <a href="http://www.snuh.org/global/en/main.do">Seoul
+                National University Hospital</a> on a computer-aided diagnosis project for liver cancer.
+                The project yielded a high-performance medical object detection model to help reduce human errors from radiologists for the early detection of liver disease.
+              </p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
 
-      <table border=0 class="bg_colour"
-             style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-        <ul>
-          <li>Invited Talk "Towards Universal Neural Waveform Synthesis", <a href="https://www.navercorp.com/en">Naver</a>, 2022</li>
-          <li>Invited Talk "On Neural Waveform Synthesis", <a href="https://supertone.ai/">Supertone</a>, 2022</li>
-          <li>Invited Talk "Prior Enhancement for Deep Generative Models", <a href="https://airsc.ai/">Hyundai AIRS</a>,
-            2022
-          </li>
-          <li>Student Conference Scholarship, <a href="https://ai.google/">Google</a>, 2022</li>
-          <li>Invited Talk "Neural Speech Synthesis: a 2021 Landscape", <a href="https://www.nvidia.com/">NVIDIA</a>,
-            2021
-          </li>
-          <li>Gradate Student of the Year, DSAIL, Seoul National University, 2019</li>
-          <li>Best Paper Award, <a href="https://airsc.ai/">Hyundai AIR Lab (currently AIRS)</a>, 2019</li>
-          <li>Stars of Tomorrow (Excellent Intern), <a
-            href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>,
-            2019
-          </li>
-          <li>Invited Talk "RNN Plus Alpha: Is RNN the False Prophet?", <a href="https://clova.ai">Naver CLOVA</a>, 2018
-          </li>
-          <li>Cum Laude, Seoul National University, 2016</li>
-          <li>Academic Performance Scholarship, Seoul National University, 2010 - 2016</li>
-          <li>Academic Scholarship (fully funded), <a href="https://foundation.sbs.co.kr/">SBS Foundation</a>, 2010 -
-            2016
-          </li>
-        </ul>
-        </tbody>
-      </table>
+          <tr onmouseout="gssdpp_stop()" onmouseover="gssdpp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/gssdpp.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function gssdpp_start() {
+                      document.getElementById('gssdpp_image').style.opacity = "1";
+                  }
+
+                  function gssdpp_stop() {
+                      document.getElementById('gssdpp_image').style.opacity = "0";
+                  }
+
+                  gssdpp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9650690/">
+                <papertitle>Robust End-to-End Focal Liver Lesion Detection Using Unregistered Multiphase Computed
+                  Tomography Images
+                </papertitle>
+              </a>
+              <br>
+              <strong>Sang-gil Lee*</strong>,
+              <a href="https://sites.google.com/snu.ac.kr/eunjikim">Eunji Kim*</a>,
+              <a href="https://scholar.google.co.kr/citations?user=C_GxLiAAAAAJ">Jae Seok Bae*</a>,
+              Jung Hoon Kim,
+              <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
+              <br>
+              <em>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</em>, 2021
+              <br>
+              <a href="https://arxiv.org/abs/2112.01535">arXiv</a> /
+              <a href="https://github.com/L0SG/grouped-ssd-pytorch">code</a>
+              <p></p>
+              <p>GSSD++ provides robustness to unregistered multi-phase CT images for detecting liver lesions using
+                attention-guided multi-phase alignment with deformable convolutions. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="gssd_stop()" onmouseover="gssd_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/gssd.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function gssd_start() {
+                      document.getElementById('gssd_image').style.opacity = "1";
+                  }
+
+                  function gssd_stop() {
+                      document.getElementById('gssd_image').style.opacity = "0";
+                  }
+
+                  gssd_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-00934-2_77">
+                <papertitle>Liver Lesion Detection from Weakly-Labeled Multi-phase CT Volumes with a Grouped Single Shot
+                  MultiBox Detector
+                </papertitle>
+              </a>
+              <br>
+              <strong>Sang-gil Lee</strong>,
+              <a href="https://scholar.google.co.kr/citations?user=C_GxLiAAAAAJ">Jae Seok Bae</a>,
+              Hyunjae Kim,
+              Jung Hoon Kim,
+              <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
+              <br>
+              <em>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>,
+              2018
+              <br>
+              <a href="https://arxiv.org/abs/1807.00436">arXiv</a> /
+              <a href="https://github.com/L0SG/grouped-ssd-pytorch">code</a>
+              <p></p>
+              <p>GSSD pioneers a focal liver lesion detection model from multi-phase CT images, which reflects a
+                real-world clinical practice of radiologists. </p>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+
+        <br>
+        <br>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Invited Talks, Honors, and Awards</heading>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+        <table border=0 class="bg_colour"
+               style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+          <ul>
+            <li>Invited Talk "Deep Generative Model for Speech and Audio", <a href="https://ssu.ac.kr">Soongsil
+              University</a>, 2023
+            </li>
+            <li>Invited Talk "Towards Universal Neural Waveform Synthesis", <a
+              href="https://www.navercorp.com/en">Naver</a>, 2022
+            </li>
+            <li>Invited Talk "On Neural Waveform Synthesis", <a href="https://supertone.ai/">Supertone</a>, 2022</li>
+            <li>Invited Talk "Prior Enhancement for Deep Generative Models", <a href="https://airsc.ai/">Hyundai
+              AIRS</a>,
+              2022
+            </li>
+            <li>Student Conference Scholarship, <a href="https://ai.google/">Google</a>, 2022</li>
+            <li>Invited Talk "Neural Speech Synthesis: a 2021 Landscape", <a href="https://www.nvidia.com/">NVIDIA</a>,
+              2021
+            </li>
+            <li>Graduate Student of the Year, DSAIL, <a href="https://en.snu.ac.kr">Seoul National University</a>, 2019
+            </li>
+            <li>Best Paper Award, <a href="https://airsc.ai/">Hyundai AIR Lab (currently AIRS)</a>, 2019</li>
+            <li>Stars of Tomorrow (Excellent Intern), <a
+              href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>,
+              2019
+            </li>
+            <li>Invited Talk "RNN Plus Alpha: Is RNN the False Prophet?", <a href="https://clova.ai">Naver CLOVA</a>,
+              2018
+            </li>
+            <li>Cum Laude, Seoul National University, 2016</li>
+            <li>Academic Performance Scholarship, <a href="https://en.snu.ac.kr">Seoul National University</a>, 2010 -
+              2016
+            </li>
+            <li>Academic Scholarship (fully funded), <a href="https://foundation.sbs.co.kr/">SBS Foundation</a>, 2010 -
+              2016
+            </li>
+          </ul>
+          </tbody>
+        </table>
 
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Personal</heading>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Personal</heading>
+            </td>
+          </tr>
+          </tbody>
+        </table>
 
-      <table width="100%" align="center" border="0" cellpadding="20">
-        <tbody>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tbody>
 
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/L0SG_logo.jpg"
-                                                                        width=140px></td>
-          <td width="75%" valign="center">
-            A PC hardware enthusiast. I like to learn anything about computers during my free time.
-            <br>
-            <br>
-            A hobbyist DJ who enjoys house music. <a
-            href="https://www.youtube.com/channel/UC2z2cvrNrA2wJsHcIAMwGdw">My mixes on YouTube</a>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/L0SG_logo.jpg"
+                                                                          width=140px></td>
+            <td width="75%" valign="center">
+              I am a PC hardware enthusiast, always eager to learn about computers in my free time.
+              <br>
+              <br>
+              As a hobbyist DJ, I enjoy house music. <a
+              href="https://www.youtube.com/channel/UC2z2cvrNrA2wJsHcIAMwGdw">My mixes on YouTube</a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
 
-      <table
-        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-        <tr>
-          <td style="padding:0px">
-            <br>
-            <p style="text-align:right;font-size:small;">
-              Last update: Feb 2023. Template borrowed from <a
-              href="https://github.com/jonbarron/jonbarron_website">here</a>.
-            </p>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Last update: Jan 2024. Template borrowed from <a
+                href="https://github.com/jonbarron/jonbarron_website">here</a>.
+              </p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
     </td>
   </tr>
 </table>
