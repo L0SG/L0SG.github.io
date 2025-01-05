@@ -82,9 +82,9 @@
             <p>
               My research interest spans a wide range of deep generative models (AR, flow, GAN, diffusion,
               etc.) applied to sequential data. Specifically, I am working on building multi-modal large language models
-              with a focus on audio.
-              During my Ph.D., I focused on time-domain waveform data (speech and audio) to advance generative modeling for audio.
-              I am also broadly interested in speech and audio applications, including text-to-speech, voice conversion, music generation, neural audio codecs, and audio language models.
+              with a focus on audio.<br><br>
+              During my Ph.D., I focused on time-domain waveform data (speech and audio) to advance generative modeling for audio.<br><br>
+              I am also broadly interested in speech and audio applications, including text-to-speech, voice conversion, music generation, neural audio codecs, and audio language models.<br><br>
               Representative papers are <span class="highlight">highlighted</span>.
             </p>
           </td>
@@ -94,6 +94,200 @@
       <table
         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
+          
+          <tr onmouseout="etta_stop()" onmouseover="etta_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/etta.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function etta_start() {
+                      document.getElementById('etta_image').style.opacity = "1";
+                  }
+  
+                  function etta_stop() {
+                      document.getElementById('etta_image').style.opacity = "0";
+                  }
+  
+                  etta_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2412.19351">
+                <papertitle>ETTA: Elucidating the Design Space of Text-to-Audio Models</papertitle>
+              </a>
+              <br>
+              <strong>Sang-gil Lee*</strong>,
+              <a href="https://cseweb.ucsd.edu/~z4kong/">Zhifeng Kong*</a>,
+              <a href="https://goelarushi.github.io">Arushi Goel</a>,
+              <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ">Sungwon Kim</a>,
+              <a href="https://rafaelvalle.github.io">Rafael Valle</a>,
+              <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
+              <br>
+              <em>arXiv preprint</em>, 2024
+              <br> <a href="https://research.nvidia.com/labs/adlr/ETTA/">Project Page</a> /
+              <a href="https://arxiv.org/abs/2412.19351">arXiv</a>
+              <p></p>
+              <p>ETTA is the first text-to-audio model with emergent abilities, capable of synthesizing entirely novel, imaginative sounds beyond the real world by leveraging large-scale synthetic audio captions (AF-Synthetic).</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="bigvgan_stop()" onmouseover="bigvgan_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/bigvgan.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function bigvgan_start() {
+                      document.getElementById('bigvgan_image').style.opacity = "1";
+                  }
+  
+                  function bigvgan_stop() {
+                      document.getElementById('bigvgan_image').style.opacity = "0";
+                  }
+  
+                  bigvgan_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2206.04658">
+                <papertitle>BigVGAN: A Universal Neural Vocoder with Large-Scale Training</papertitle>
+              </a>
+              <br>
+              <strong>Sang-gil Lee</strong>,
+              <a href="https://wpingnet.github.io/">Wei Ping</a>,
+              <a href="https://scholar.google.com/citations?user=7BRYaGcAAAAJ">Boris Ginsburg</a>,
+              <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ/">Bryan Catanzaro</a>,
+              <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
+              <br>
+              <em>International Conference on Learning Representations (ICLR)</em>, 2023
+              <br> <a href="https://research.nvidia.com/labs/adlr/projects/bigvgan/">Project Page</a> /
+              <a href="https://huggingface.co/collections/nvidia/bigvgan-66959df3d97fd7d98d97dc9a">Model </a> /
+              <a href="https://arxiv.org/abs/2206.04658">arXiv</a> /
+              <a href="https://github.com/NVIDIA/BigVGAN">Code</a> /
+              <a href="https://bigvgan-demo.github.io/">Demo</a>
+              <p></p>
+              <p>BigVGAN is a universal audio synthesizer that achieves unprecedented zero-shot performance on various
+                unseen
+                environments using anti-aliased periodic nonlinearity and large-scale training. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="lfsc_stop()" onmouseover="lfsc_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/lfsc.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function lfsc_start() {
+                      document.getElementById('lfsc_image').style.opacity = "1";
+                  }
+  
+                  function lfsc_stop() {
+                      document.getElementById('lfsc_image').style.opacity = "0";
+                  }
+  
+                  lfsc_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2409.12117">
+                <papertitle>Low Frame-rate Speech Codec: a Codec Designed for Fast High-quality Speech LLM Training and Inference</papertitle>
+              </a>
+              <br>
+              Edresson Casanova,
+              Ryan Langman,
+              Paarth Neekhara,
+              Shehzeen Hussain,
+              Jason Li,
+              Subhankar Ghosh,
+              Ante Jukić,
+              <strong>Sang-gil Lee</strong>
+              <br>
+              <em>ICASSP</em>, 2025
+              <br> <a href="https://huggingface.co/nvidia/low-frame-rate-speech-codec-22khz">Model</a> /
+              <a href="https://arxiv.org/abs/2409.12117">arXiv</a>
+              <p></p>
+              <p>A neural audio codec that leverages finite scalar quantization and adversarial training with large speech language models to achieve high-quality audio compression with a 1.89 kbps bitrate and 21.5 frames per second.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="synthetic_stop()" onmouseover="synthetic_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/tangoaf.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function synthetic_start() {
+                      document.getElementById('synthetic_image').style.opacity = "1";
+                  }
+  
+                  function synthetic_stop() {
+                      document.getElementById('synthetic_image').style.opacity = "0";
+                  }
+  
+                  synthetic_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2406.15487">
+                <papertitle>Improving Text-To-Audio Models with Synthetic Captions</papertitle>
+              </a>
+              <br>
+              <a href="https://cseweb.ucsd.edu/~z4kong/">Zhifeng Kong*</a>,
+              <strong>Sang-gil Lee*</strong>,
+              <a href="https://deepanwayx.github.io">Deepanway Ghosal</a>,
+              <a href="https://scholar.google.com.sg/citations?user=jPfEvuQAAAAJ">Navonil Majumder</a>,
+              <a href="https://scholar.google.com.sg/citations?user=4q8VxIIAAAAJ">Ambuj Mehrish</a>,
+              <a href="https://rafaelvalle.github.io">Rafael Valle</a>,
+              <a href="https://soujanyaporia.github.io">Soujanya Poria</a>,
+              <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
+              <br>
+              <em>Interspeech SynData4GenAI</em>, 2024
+              <br> <a href="https://github.com/NVIDIA/audio-flamingo/tree/main/labeling_machine">Dataset</a> /
+              <a href="https://huggingface.co/declare-lab/tango-af-ac-ft-ac">Model</a> /
+              <a href="https://arxiv.org/abs/2406.15487">arXiv</a>
+              <p></p>
+              <p><a href="https://github.com/NVIDIA/audio-flamingo/tree/main/labeling_machine">AF-AudioSet</a> is a large-scale audio dataset with synthetic captions from <a href="https://audioflamingo.github.io/">Audio Flamingo</a> that leads to significant improvements to text-to-audio models.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="voicetailor_stop()" onmouseover="voicetailor_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/voicetailor.png' width="160">
+              </div>
+              <script type="text/javascript">
+                  function voicetailor_start() {
+                      document.getElementById('voicetailor_image').style.opacity = "1";
+                  }
+  
+                  function voicetailor_stop() {
+                      document.getElementById('voicetailor_image').style.opacity = "0";
+                  }
+  
+                  voicetailor_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2408.14739">
+                <papertitle>VoiceTailor: Lightweight Plug-In Adapter for Diffusion-Based Personalized Text-to-Speech</papertitle>
+              </a>
+              <br>
+              <a href="https://gmltmd789.github.io/">Heeseung Kim</a>,
+              <strong>Sang-gil Lee</strong>,
+              <a href="https://scholar.google.com/citations?user=gxNOJPEAAAAJ&hl=en">Jiheum Yeom</a>,      
+              <a href="https://scholar.google.com/citations?user=DDI2oS8AAAAJ&hl=en">Che Hyun Lee</a>,
+              <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ&hl=en">Sungwon Kim</a>,
+              <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ&hl=en">Sungroh Yoon</a>
+              <br>
+              <em>INTERSPEECH</em>, 2024
+              <br> <a href="https://voicetailor.github.io/">Project Page</a> /
+              <a href="https://arxiv.org/abs/2408.14739">arXiv</a>
+              <p></p>
+              <p>VoiceTailor is a one-shot speaker-adaptive text-to-speech model, which proposes combining low-rank adapters to perform speaker adaptation in a parameter-efficient manner.</p>
+            </td>
+          </tr>     
 
         <tr onmouseout="editavideo_stop()" onmouseover="editavideo_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -109,7 +303,7 @@
                     document.getElementById('editavideo_image').style.opacity = "0";
                 }
 
-                bigvgan_stop()
+                editavideo_stop()
             </script>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
@@ -118,60 +312,20 @@
             </a>
             <br>
             <a href="https://scholar.google.com/citations?user=M8RX0MEAAAAJ">Chaehun Shin*</a>,
-            <a href="https://scholar.google.com/citations?user=4ojbJpoAAAAJ">Heeseung Kim*</a>,
+            <a href="https://gmltmd789.github.io">Heeseung Kim*</a>,
             Che Hyun Lee,
             <strong>Sang-gil Lee</strong>,
             <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
             <br>
             <em>Asian Conference on Machine Learning (ACML)</em>, <strong>Best Paper Award</strong>, 2023
-            <br> <a href="https://edit-a-video.github.io/">project page</a> /
+            <br> <a href="https://edit-a-video.github.io/">Project Page</a> /
             <a href="https://arxiv.org/abs/2303.07945">arXiv</a>
             <p></p>
             <p>Edit-A-Video is a diffusion-based one-shot video editing model that solves a background inconsistency problem using a new sparse-causal mask blending method. </p>
           </td>
         </tr>
 
-        <tr onmouseout="bigvgan_stop()" onmouseover="bigvgan_start()" bgcolor="#ffffd0">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <img src='images/bigvgan.png' width="160">
-            </div>
-            <script type="text/javascript">
-                function bigvgan_start() {
-                    document.getElementById('bigvgan_image').style.opacity = "1";
-                }
-
-                function bigvgan_stop() {
-                    document.getElementById('bigvgan_image').style.opacity = "0";
-                }
-
-                bigvgan_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://arxiv.org/abs/2206.04658">
-              <papertitle>BigVGAN: A Universal Neural Vocoder with Large-Scale Training</papertitle>
-            </a>
-            <br>
-            <strong>Sang-gil Lee</strong>,
-            <a href="https://wpingnet.github.io/">Wei Ping</a>,
-            <a href="https://scholar.google.com/citations?user=7BRYaGcAAAAJ">Boris Ginsburg</a>,
-            <a href="https://ctnzr.io/">Bryan Catanzaro</a>,
-            <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ">Sungroh Yoon</a>
-            <br>
-            <em>International Conference on Learning Representations (ICLR)</em>, 2023
-            <br> <a href="https://research.nvidia.com/labs/adlr/projects/bigvgan/">project page</a> /
-            <a href="https://arxiv.org/abs/2206.04658">arXiv</a> /
-            <a href="https://github.com/NVIDIA/BigVGAN">code</a> /
-            <a href="https://bigvgan-demo.github.io/">demo</a>
-            <p></p>
-            <p>BigVGAN is a universal audio synthesizer that achieves unprecedented zero-shot performance on various
-              unseen
-              environments using anti-aliased periodic nonlinearity and large-scale training. </p>
-          </td>
-        </tr>
-
-        <tr onmouseout="priorgrad_stop()" onmouseover="priorgrad_start()" bgcolor="#ffffd0">
+        <tr onmouseout="priorgrad_stop()" onmouseover="priorgrad_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
               <img src='images/priorgrad.png' width="160">
@@ -196,7 +350,7 @@
             </a>
             <br>
             <strong>Sang-gil Lee</strong>,
-            <a href="https://scholar.google.com/citations?user=4ojbJpoAAAAJ">Heeseung Kim</a>,
+            <a href="https://gmltmd789.github.io">Heeseung Kim</a>,
             <a href="https://scholar.google.com/citations?user=M8RX0MEAAAAJ">Chaehun Shin</a>,
             <a href="https://tan-xu.github.io/">Xu Tan</a>,
             <a href="https://changliu00.github.io/">Chang Liu</a>,
@@ -207,17 +361,17 @@
             <a href="https://www.microsoft.com/en-us/research/people/tyliu/">Tie-Yan Liu</a>
             <br>
             <em>International Conference on Learning Representations (ICLR)</em>, 2022
-            <br> <a href="https://speechresearch.github.io/priorgrad/">project page</a> /
+            <br> <a href="https://speechresearch.github.io/priorgrad/">Project Page</a> /
             <a href="https://arxiv.org/abs/2106.06406">arXiv</a> /
-            <a href="https://github.com/microsoft/NeuralSpeech">code</a> /
-            <a href="https://iclr.cc/virtual/2022/poster/6445">poster</a>
+            <a href="https://github.com/microsoft/NeuralSpeech">Code</a> /
+            <a href="https://iclr.cc/virtual/2022/poster/6445">Poster</a>
             <p></p>
             <p>PriorGrad presents an efficient method for constructing a data-dependent non-standard Gaussian prior for
               training and sampling from diffusion models applied to speech synthesis. </p>
           </td>
         </tr>
 
-        <tr onmouseout="nanoflow_stop()" onmouseover="nanoflow_start()" bgcolor="#ffffd0">
+        <tr onmouseout="nanoflow_stop()" onmouseover="nanoflow_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
               <img src='images/nanoflow.png' width="160">
@@ -246,8 +400,8 @@
             <em>Neural Information Processing Systems (NeurIPS)</em>, 2020
             <br>
             <a href="https://arxiv.org/abs/2006.06280">arXiv</a> /
-            <a href="https://github.com/L0SG/NanoFlow">code</a> /
-            <a href="https://nips.cc/virtual/2020/poster/17696">poster</a>
+            <a href="https://github.com/L0SG/NanoFlow">Code</a> /
+            <a href="https://nips.cc/virtual/2020/poster/17696">Poster</a>
             <p></p>
             <p>NanoFlow uses a single neural network for multiple transformation stages in normalizing flows, which
               provides an efficient compression for flow-based generative models.</p>
@@ -285,9 +439,9 @@
             <em>International Conference on Machine Learning (ICML)</em>, 2019
             <br>
             <a href="https://arxiv.org/abs/1811.02155">arXiv</a> /
-            <a href="https://github.com/ksw0306/FloWaveNet">code</a> /
-            <a href="https://ksw0306.github.io/flowavenet-demo">demo</a> /
-            <a href="https://pdfs.semanticscholar.org/9e79/377defb3385ae4dfb5e345c85686e27ca7a5.pdf">poster</a>
+            <a href="https://github.com/ksw0306/FloWaveNet">Code</a> /
+            <a href="https://ksw0306.github.io/flowavenet-demo">Demo</a> /
+            <a href="https://pdfs.semanticscholar.org/9e79/377defb3385ae4dfb5e345c85686e27ca7a5.pdf">Poster</a>
             <p></p>
             <p>FloWaveNet is one of the first flow-based generative models for fast and parallel synthesis of audio waveforms, enabling a likelihood-based neural vocoder without any auxiliary loss.</p>
           </td>
@@ -361,7 +515,7 @@
             <em>arXiv preprint</em>, 2017
             <br>
             <a href="https://arxiv.org/abs/1710.11418">arXiv</a> /
-            <a href="https://github.com/L0SG/seqgan-music">code</a>
+            <a href="https://github.com/L0SG/seqgan-music">Code</a>
             <p></p>
             <p>This work investigates an efficient musical word representation from polyphonic MIDI data for SeqGAN, simultaneously capturing chords and melodies with dynamic timings.</p>
           </td>
@@ -638,7 +792,7 @@
               <em>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</em>, 2021
               <br>
               <a href="https://arxiv.org/abs/2112.01535">arXiv</a> /
-              <a href="https://github.com/L0SG/grouped-ssd-pytorch">code</a>
+              <a href="https://github.com/L0SG/grouped-ssd-pytorch">Code</a>
               <p></p>
               <p>GSSD++ provides robustness to unregistered multi-phase CT images for detecting liver lesions using
                 attention-guided multi-phase alignment with deformable convolutions. </p>
@@ -679,7 +833,7 @@
               2018
               <br>
               <a href="https://arxiv.org/abs/1807.00436">arXiv</a> /
-              <a href="https://github.com/L0SG/grouped-ssd-pytorch">code</a>
+              <a href="https://github.com/L0SG/grouped-ssd-pytorch">Code</a>
               <p></p>
               <p>GSSD pioneers a focal liver lesion detection model from multi-phase CT images, which reflects a
                 real-world clinical practice of radiologists. </p>
@@ -777,7 +931,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last update: Jan 2024. Template borrowed from <a
+                Last update: Jan 2025. Template borrowed from <a
                 href="https://github.com/jonbarron/jonbarron_website">here</a>.
               </p>
             </td>
