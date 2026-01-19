@@ -224,7 +224,8 @@ const RESEARCH_PAPERS = [
     image: "uniwav.png",
     highlighted: false,
     links: [
-      { text: "Project Page", url: "https://research.nvidia.com/labs/adlr/uniwav/" }
+      { text: "Demo Page", url: "https://alexander-h-liu.github.io/uniwav-demo.github.io/" },
+      { text: "arXiv", url: "https://arxiv.org/abs/2503.00733" }
     ],
     description: "UniWav is a unified framework combining representation learning and generation for speech, enabling both discriminative and generative tasks within a single pre-trained model."
   },
