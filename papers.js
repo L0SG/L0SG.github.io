@@ -188,7 +188,7 @@ const RESEARCH_PAPERS = [
       <a href="https://cseweb.ucsd.edu/~z4kong/">Zhifeng Kong</a>,
       <a href="https://scholar.google.com/citations?user=4x3DhzAAAAAJ&hl=en">Kevin J Shih</a>,
       <a href="https://weilinie.github.io/">Weili Nie</a>,
-      <a href="https://arashvahdat.com/">Arash Vahdat</a>,
+      <a href="http://latentspace.cc/">Arash Vahdat</a>,
       <strong>Sang-gil Lee</strong>,
       <a href="https://scholar.google.com/citations?user=u2tgePAAAAAJ&hl=en">Joao Felipe Santos</a>,
       <a href="https://scholar.google.com/citations?user=ZleK6ccAAAAJ">Ante Jukić</a>,
