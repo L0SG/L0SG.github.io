@@ -139,8 +139,8 @@ const RESEARCH_PAPERS = [
       <strong>Sang-gil Lee</strong>,
       <a href="https://cseweb.ucsd.edu/~z4kong/">Zhifeng Kong</a>,
       <a href="https://scholar.google.com/citations?user=u2tgePAAAAAJ&hl=en">Joao Felipe Santos</a>,
-      <a href="https://www.cs.umd.edu/~ramani/">Ramani Duraiswami</a>,
-      <a href="https://www.cs.umd.edu/~dmanocha/">Dinesh Manocha</a>,
+      <a href="https://www.cs.umd.edu/people/ramanid">Ramani Duraiswami</a>,
+      <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>,
       <a href="https://wpingnet.github.io/">Wei Ping</a>,
       <a href="https://scholar.google.com/citations?user=62ElavIAAAAJ&hl=en">Mohammad Shoeybi</a>,
       <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
@@ -166,8 +166,8 @@ const RESEARCH_PAPERS = [
       <a href="https://cseweb.ucsd.edu/~z4kong/">Zhifeng Kong</a>,
       <strong>Sang-gil Lee</strong>,
       <a href="https://huckiyang.github.io/">Chao-Han Huck Yang</a>,
-      <a href="https://www.cs.umd.edu/~ramani/">Ramani Duraiswami</a>,
-      <a href="https://www.cs.umd.edu/~dmanocha/">Dinesh Manocha</a>,
+      <a href="https://www.cs.umd.edu/people/ramanid">Ramani Duraiswami</a>,
+      <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>,
       <a href="https://rafaelvalle.github.io">Rafael Valle</a>,
       <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
     `,
