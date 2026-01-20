@@ -157,7 +157,7 @@ const RESEARCH_PAPERS = [
   },
   {
     id: "af3",
-    title: "Audio Flamingo 3: A Fully Open Large Audio-Language Model",
+    title: "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
     authors: `
       <a href="https://goelarushi.github.io">Arushi Goel*</a>,
       <a href="https://sreyan88.github.io/">Sreyan Ghosh*</a>,
@@ -175,6 +175,7 @@ const RESEARCH_PAPERS = [
     year: 2025,
     image: "audio_flamingo_3.png",
     highlighted: false,
+    award: "Spotlight",
     links: [
       { text: "Project Page", url: "https://research.nvidia.com/labs/adlr/AF3/" },
       { text: "arXiv", url: "https://arxiv.org/abs/2507.08128" }
@@ -273,11 +274,12 @@ const RESEARCH_PAPERS = [
       <a href="https://rafaelvalle.github.io">Rafael Valle</a>,
       <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
     `,
-    venue: "arXiv preprint",
+    venue: "preprint",
     year: 2024,
     image: "a2flow.png",
     highlighted: false,
     links: [
+      { text: "OpenReview", url: "https://openreview.net/forum?id=e2p1BWR3vq" },
       { text: "Demo (Magpie TTS)", url: "https://build.nvidia.com/nvidia/magpie-tts-flow" }
     ],
     description: "A2-Flow introduces alignment-aware pre-training for speech synthesis using flow matching. The model is deployed as Magpie TTS Flow on NVIDIA Build."
