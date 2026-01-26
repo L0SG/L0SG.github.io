@@ -126,7 +126,9 @@ const RESEARCH_PAPERS = [
     highlighted: false,
     links: [
       { text: "Project Page", url: "https://research.nvidia.com/labs/adlr/personaplex/" },
-      { text: "Preprint", url: "https://research.nvidia.com/labs/adlr/files/personaplex/personaplex_preprint.pdf" }
+      { text: "Preprint", url: "https://research.nvidia.com/labs/adlr/files/personaplex/personaplex_preprint.pdf" },
+      { text: "Model", url: "https://huggingface.co/nvidia/personaplex-7b-v1" },
+      { text: "Code", url: "https://github.com/NVIDIA/personaplex" }
     ],
     description: "PersonaPlex is a full-duplex conversational AI model that can listen and speak simultaneously with customizable voice and persona, supporting natural turn-taking, interruptions, and backchannels."
   },
