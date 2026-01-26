@@ -46,8 +46,8 @@ const RESEARCH_PAPERS = [
       <a href="https://rafaelvalle.github.io">Rafael Valle</a>,
       <a href="https://wpingnet.github.io/">Wei Ping</a>
     `,
-    venue: "arXiv preprint",
-    year: 2025,
+    venue: "International Conference on Learning Representations (ICLR)",
+    year: 2026,
     image: "ualm.png",
     highlighted: true,
     links: [
@@ -120,12 +120,13 @@ const RESEARCH_PAPERS = [
       <a href="https://jaywalnut310.github.io/">Jaehyeon Kim</a>,
       <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
     `,
-    venue: "arXiv preprint",
+    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     year: 2026,
     image: "personaplex.jpeg",
     highlighted: false,
     links: [
-      { text: "Project Page", url: "https://research.nvidia.com/labs/adlr/personaplex/" }
+      { text: "Project Page", url: "https://research.nvidia.com/labs/adlr/personaplex/" },
+      { text: "Preprint", url: "https://research.nvidia.com/labs/adlr/files/personaplex/personaplex_preprint.pdf" }
     ],
     description: "PersonaPlex is a full-duplex conversational AI model that can listen and speak simultaneously with customizable voice and persona, supporting natural turn-taking, interruptions, and backchannels."
   },
@@ -145,8 +146,8 @@ const RESEARCH_PAPERS = [
       <a href="https://scholar.google.com/citations?user=62ElavIAAAAJ&hl=en">Mohammad Shoeybi</a>,
       <a href="https://scholar.google.com/citations?user=UZ6kI2AAAAAJ">Bryan Catanzaro</a>
     `,
-    venue: "arXiv preprint",
-    year: 2025,
+    venue: "International Conference on Learning Representations (ICLR)",
+    year: 2026,
     image: "music_flamingo.png",
     highlighted: false,
     links: [
@@ -297,7 +298,7 @@ const RESEARCH_PAPERS = [
       <a href="https://scholar.google.com/citations?user=ZleK6ccAAAAJ">Ante Jukić</a>,
       <strong>Sang-gil Lee</strong>
     `,
-    venue: "ICASSP",
+    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     year: 2025,
     image: "lfsc.png",
     highlighted: false,
@@ -344,7 +345,7 @@ const RESEARCH_PAPERS = [
       <a href="https://scholar.google.com/citations?user=6qGppvkAAAAJ&hl=en">Sungwon Kim</a>,
       <a href="https://scholar.google.com/citations?user=Bphl_fIAAAAJ&hl=en">Sungroh Yoon</a>
     `,
-    venue: "INTERSPEECH",
+    venue: "Interspeech",
     year: 2024,
     image: "voicetailor.png",
     highlighted: false,
