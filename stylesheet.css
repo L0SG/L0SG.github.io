@@ -81,7 +81,18 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 14px;
+}
+
+/* Ensure text wraps properly */
+body {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+p, li, td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 strong {
@@ -165,22 +176,49 @@ span.highlight {
   opacity: 1;
 }
 
-/* Media query for narrower screens */
-@media screen and (max-width: 500px) {
-  td {
-    width: 80%; /* Each cell takes full width, stacking vertically */
+/* Media query for tablet-sized screens */
+@media screen and (max-width: 800px) {
+  /* Stack paper/experience entries (those with 25%/75% widths) */
+  td[style*="width:25%"],
+  td[style*="width:75%"] {
+    display: block;
+    width: 100% !important;
   }
-  .item img {
-    width: 60%; /* Adjust this value as needed for smaller screens */
-    height: auto;
-  }
+  
+  /* Make paper images larger and centered when stacked */
   .one {
-    width: 60%; /* Adjust this value as needed for smaller screens */
-    height: auto;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px auto;
   }
-  .two {
-    width: 60%; /* Adjust this value as needed for smaller screens */
-    height: auto;
+  .one img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+/* Media query for narrower screens (mobile) */
+@media screen and (max-width: 500px) {
+  /* Paper images - still large and centered */
+  .one {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  
+  /* Shrink profile photo slightly but keep side-by-side */
+  .item {
+    width: 100px;
+  }
+  .item2 {
+    width: 100px;
   }
 }
 
