@@ -47,6 +47,7 @@ const RESEARCH_PAPERS = [
       <a href="https://wpingnet.github.io/">Wei Ping</a>
     `,
     venue: "International Conference on Learning Representations (ICLR)",
+    award: "Oral",
     year: 2026,
     image: "ualm.png",
     highlighted: true,
